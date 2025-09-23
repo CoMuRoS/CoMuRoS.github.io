@@ -1,11 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Will Be Updated Soon</title>
-</head>
-<body>
-  <h1>Will be updated soon. Thankyou for your patience. </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoMuRoS - Collaborative Multi-Robot System</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">CoMuRoS</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#demo">Videos</a></li>
+          <li><a href="#installation">Installation</a></li>
+          <li><a href="#dataset">Dataset</a></li>
+          <li><a href="#publications">Paper</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home / Landing -->
+    <section id="home" class="section home">
+      <div class="hero-content">
+        <h1>CoMuRoS</h1>
+        <p>Collaborative Multi-Robot System for Generalizable Task Planning, Event-Driven Replanning, and Human–Robot Collaboration</p>
+        <a href="#demo" class="cta-button">Watch Experiments</a>
+        <div style="margin-top: 2rem">
+          <a href="https://anonymous.4open.science/r/CoMuRoS-0242/" class="cta-button secondary" target="_blank">View Repository</a>
+          <a href="https://youtu.be/9zOm0uG16YQ" class="cta-button tertiary" target="_blank">Teaser Video</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Videos -->
+    <section id="demo" class="section">
+      <div class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Experiment Videos</h2>
+          <p class="section-subtitle">Watch CoMuRoS in action across hardware and simulation experiments</p>
+        </div>
+
+        <div class="video-grid">
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/7QZDq5MSq1A" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Emergent Human-Multirobot collaboration when recovery from event is beyond capabilities of robots</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/7QZDq5MSq1A" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Formation of mobile robots and Robotic Arm collaborate to transport an object</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/9zOm0uG16YQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>CoMuRoS Teaser Video</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/RCi28zFyGT4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Human guided disaster relief using CoMuRoS Architecture</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/GfmLSM3qX9k" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Drone and Quadruped Robot collaborate for Disaster Relief</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/qp81etRRkfg" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Hospital Environment: Understanding human intentions</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/r0WZd_6IdWc" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Multirobot System delivers food by understanding human intention</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/qp81etRRkfg" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Hospital Environment: Replanning triggered by human interruption</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/PTaiFttYWuo" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Ignoring Irrelevant Events</h4>
+            </div>
+          </div>
+
+          <div class="video-item">
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/W_0TnEH_UwU" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-content">
+              <h4>Collaboration triggered by task-disrupting events</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Installation -->
+    <section id="installation" class="section">
+      <div class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Installation</h2>
+          <p class="section-subtitle">Setup instructions for installing CoMuRoS Architecture</p>
+        </div>
+
+        <div class="step">
+          <h3>📥 Clone the Repository</h3>
+          <p>Clone the anonymous repository into your ROS 2 workspace:</p>
+          <div class="code-block">
+            <pre><code>cd ~/ros2_ws/src
+git clone https://anonymous.4open.science/r/CoMuRoS-0242/ comuros
+cd ~/ros2_ws</code></pre>
+          </div>
+        </div>
+
+        <div class="step">
+          <h3>📋 Prerequisites</h3>
+          <ul>
+            <li>ROS 2 (Humble or Iron recommended)</li>
+            <li>Python 3.8+</li>
+            <li>Git</li>
+          </ul>
+          <p>Check your ROS 2 installation:</p>
+          <div class="code-block">
+            <pre><code>ros2 --version</code></pre>
+          </div>
+        </div>
+
+        <div class="step">
+          <h3>⚙️ Install Dependencies</h3>
+          <div class="code-block">
+            <pre><code>rosdep install --from-paths src --ignore-src -r -y
+cd src/comuros
+pip install -r requirements.txt</code></pre>
+          </div>
+        </div>
+
+        <div class="step">
+          <h3>🚀 Build the Package</h3>
+          <div class="code-block">
+            <pre><code>cd ~/ros2_ws
+colcon build --symlink-install
+source install/setup.bash
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc</code></pre>
+          </div>
+        </div>
+
+        <div class="step">
+          <h3>🔐 Set API Keys</h3>
+          <p>You need at least one API key (OpenAI, Gemini, or XAI/Grok). Add them temporarily:</p>
+          <div class="code-block">
+            <pre><code>export OPENAI_API_KEY="your_openai_key"
+export GEMINI_API_KEY="your_gemini_key"
+export XAI_API_KEY="your_grok_key"</code></pre>
+          </div>
+          <p>Or permanently in <code>~/.bashrc</code>.</p>
+        </div>
+
+        <div class="step">
+          <h3>🎯 Run the System</h3>
+          <p>Recommended: launch everything at once:</p>
+          <div class="code-block">
+            <pre><code>ros2 launch chatty chat_system.launch.py</code></pre>
+          </div>
+          <p>Advanced: run nodes individually for <code>chat_manager</code>, <code>task_manager</code>, and <code>chat_gui</code>.</p>
+        </div>
+
+        <div class="step">
+          <h3>📄 Full Documentation</h3>
+          <p>For detailed instructions and configuration examples, see the <a href="https://anonymous.4open.science/r/CoMuRoS-0242/" target="_blank" rel="noopener">README in the anonymous GitHub repository</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dataset -->
+    <section id="dataset" class="section">
+      <div class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Dataset</h2>
+          <p class="section-subtitle">Benchmark for evaluating task planning and replanning</p>
+        </div>
+        <p>
+          <a href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" target="_blank" rel="noopener">Download Dataset (Google Drive)</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+      <div class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Paper</h2>
+        </div>
+        <p>
+          <a href="Murogai4 (10).pdf" target="_blank" rel="noopener">Read the PDF</a>
+        </p>
+        <div class="code-block bibtex">
+          <pre><code>@article{comuros2025,
+  title   = {LLM-Based Generalizable Hierarchical Task Planning and Execution for Heterogeneous Robot Teams with Event-Driven Replanning},
+  author  = {Anonymous},
+  journal = {submitted to ICRA},
+  year    = {2025}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="https://anonymous.4open.science/r/CoMuRoS-0242/" target="_blank">Repository</a>
+        <a href="#dataset">Dataset</a>
+        <a href="#publications">Paper</a>
+      </div>
+      <p>&copy; 2025 CoMuRoS Project. Anonymous project page for peer review.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
